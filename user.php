@@ -298,9 +298,9 @@
       <h1>Manajemen User</h1>
       <nav>
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-          <li class="breadcrumb-item">Tables</li>
-          <li class="breadcrumb-item active">Data</li>
+          <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+          <li class="breadcrumb-item"><li>
+          <li class="breadcrumb-item active">Manajemen Produk</li>
         </ol>
       </nav>
     </div><!-- End Page Title -->
