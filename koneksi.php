@@ -1,3 +1,3 @@
 <?php
-$comn = mysqli_connect("localhost", "root","","RezStore");
+$conn = mysqli_connect("localhost", "root","","punyaanggid");
 ?>
