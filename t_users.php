@@ -284,7 +284,7 @@ if (isset($_POST['simpan'])) {
             &copy; Copyright <strong><span>RezStore1</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
-            Designed by <a href="">RezStore1</a>
+            Designed by <a href="https://www.instagram.com/dyreez1?igsh=MTVyeGJvcnc3MXl1ZA==">RezFah</a>
         </div>
     </footer><!-- End Footer -->
 
