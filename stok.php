@@ -73,7 +73,7 @@ if (isset($_POST['submit'])) {
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/provile.jpeg" rel="icon">
+  <link href="assets/img/RezStore1.jpeg" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -109,7 +109,7 @@ if (isset($_POST['submit'])) {
 
     <div class="d-flex align-items-center justify-content-between">
       <a href="index.php" class="logo d-flex align-items-center">
-        <img src="assets/img/ilventory3.png" alt="">
+        <img src="assets/img/RezStore1.jpeg" alt="">
         <span class="d-none d-lg-block">RezStore1</span>
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>
@@ -124,7 +124,7 @@ if (isset($_POST['submit'])) {
             href="#"
             data-bs-toggle="dropdown">
             <img
-              src="assets/img/ilham2.jpeg"
+              src="assets/img/Rezfah.jpeg"
               alt="Profile"
               class="rounded-circle" />
           </a>

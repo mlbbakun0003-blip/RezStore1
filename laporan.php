@@ -44,7 +44,7 @@ $total_stok_kritis = mysqli_num_rows(mysqli_query(
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/ilventory3.png" rel="icon">
+  <link href="assets/img/RezStore1.jpeg" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -71,7 +71,7 @@ $total_stok_kritis = mysqli_num_rows(mysqli_query(
 
     <div class="d-flex align-items-center justify-content-between">
       <a href="index.php" class="logo d-flex align-items-center">
-        <img src="assets/img/ilventory3.png" alt="">
+        <img src="assets/img/RezStore1.jpeg" alt="">
         <span class="d-none d-lg-block">RezStore1</span>
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>
@@ -86,7 +86,7 @@ $total_stok_kritis = mysqli_num_rows(mysqli_query(
             href="#"
             data-bs-toggle="dropdown">
             <img
-              src="assets/img/provile.jpeg"
+              src="assets/img/Rezfah.jpeg"
               alt="Profile"
               class="rounded-circle" />
           </a>
