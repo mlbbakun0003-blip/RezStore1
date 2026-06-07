@@ -73,7 +73,7 @@ if (isset($_POST['submit'])) {
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/ilventory3.png" rel="icon">
+  <link href="assets/img/provile.jpeg" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->

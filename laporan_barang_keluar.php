@@ -103,7 +103,7 @@ $html = '
 
 <body>
 
-<h1>ilventory</h1>
+<h1>RezStore1</h1>
 <hr>
 <h3>LAPORAN BARANG KELUAR</h3>
 
