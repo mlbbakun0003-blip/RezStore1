@@ -309,10 +309,8 @@ function waktu_lalu(string $datetime)
             <!-- KATEGORI -->
             <div class="col-xxl-4 col-md-12">
               <div class="card info-card">
-
                 <div class="card-body">
                   <h5 class="card-title">Kategori <span>| Total</span></h5>
-
                   <div class="d-flex align-items-center">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
                       <i class="bi bi-tags"></i>
