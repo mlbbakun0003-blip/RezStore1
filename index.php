@@ -263,68 +263,64 @@ function waktu_lalu(string $datetime)
           <div class="row">
 
             <!-- TOTAL PRODUK -->
-            <div class="col-xxl-4 col-md-6">
-              <div class="card info-card">
+<div class="col-lg-4 col-md-4">
+  <div class="card info-card">
+    <div class="card-body">
+      <h5 class="card-title">Produk <span>| Total</span></h5>
 
-                <div class="card-body">
-                  <h5 class="card-title">Produk <span>| Total</span></h5>
+      <div class="d-flex align-items-center">
+        <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+          <i class="bi bi-box"></i>
+        </div>
 
-                  <div class="d-flex align-items-center">
-                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                      <i class="bi bi-box"></i>
-                    </div>
+        <div class="ps-3">
+          <h6><?= $data_produk['total_produk']; ?></h6>
+          <span class="text-muted small pt-2 ps-1">Total Produk</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-                    <div class="ps-3">
-                      <h6><?= $data_produk['total_produk']; ?></h6>
-                      <span class="text-muted small pt-2 ps-1">Total Produk</span>
-                    </div>
-                  </div>
+<!-- TOTAL STOK -->
+<div class="col-lg-4 col-md-4">
+  <div class="card info-card">
+    <div class="card-body">
+      <h5 class="card-title">Stok <span>| Total</span></h5>
 
-                </div>
-              </div>
-            </div>
+      <div class="d-flex align-items-center">
+        <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+          <i class="bi bi-archive"></i>
+        </div>
 
-            <!-- TOTAL STOK -->
-            <div class="col-xxl-4 col-md-6">
-              <div class="card info-card">
+        <div class="ps-3">
+          <h6><?= $data_stok['total_stok'] ?? 0; ?></h6>
+          <span class="text-muted small pt-2 ps-1">Jumlah Semua Stok</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-                <div class="card-body">
-                  <h5 class="card-title">Stok <span>| Total</span></h5>
+<!-- KATEGORI -->
+<div class="col-lg-4 col-md-4">
+  <div class="card info-card">
+    <div class="card-body">
+      <h5 class="card-title">Kategori <span>| Total</span></h5>
 
-                  <div class="d-flex align-items-center">
-                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                      <i class="bi bi-archive"></i>
-                    </div>
+      <div class="d-flex align-items-center">
+        <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+          <i class="bi bi-tags"></i>
+        </div>
 
-                    <div class="ps-3">
-                      <h6><?= $data_stok['total_stok'] ?? 0; ?></h6>
-                      <span class="text-muted small pt-2 ps-1">Jumlah Semua Stok</span>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-
-            <!-- KATEGORI -->
-            <div class="col-xxl-4 col-md-12">
-              <div class="card info-card">
-                <div class="card-body">
-                  <h5 class="card-title">Kategori <span>| Total</span></h5>
-                  <div class="d-flex align-items-center">
-                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                      <i class="bi bi-tags"></i>
-                    </div>
-
-                    <div class="ps-3">
-                      <h6><?= $data_kategori['total_kategori']; ?></h6>
-                      <span class="text-muted small pt-2 ps-1">Total Kategori</span>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </div>
+        <div class="ps-3">
+          <h6><?= $data_kategori['total_kategori']; ?></h6>
+          <span class="text-muted small pt-2 ps-1">Total Kategori</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
             <!-- REPORT / GRAFIK -->
             <div class="col-12">
